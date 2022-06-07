@@ -87,6 +87,40 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+  background-color: #CAC691;
+}
+
+
+header {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #152A3E;
+  width: 100%;
+}
+
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap; /* IS THIS TO ENSURE THAT THE NAV BAR ENDS UP BELOW THE LOGO?? */
+  width: 100%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content:space-between;
+  width: 80%;
+}
+
+.nav-list li {
+padding-left: 0.75em;
+padding-right: 0.75em;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
