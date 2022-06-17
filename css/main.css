@@ -87,8 +87,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body {
+   html {
+    font-size: 16px;
+  }
+
+   body {
   background-color: #CAC691;
+  font-size: 1em;
+  width: 100%;
+  font-family: 'Lekton';
 }
 
 
@@ -116,10 +123,49 @@ header nav ul {
   width: 80%;
 }
 
+.menu-bar {
+  padding-top: 1.75em;
+  padding-bottom: 1.75em;
+  padding-right: 2.5em;
+}
+
+.fa, .fas {
+  color: white;
+  font-size: 2.5em;
+}
+
+.hide {
+  display: none;
+}
+
+
 .nav-list li {
 padding-left: 0.75em;
 padding-right: 0.75em;
+font-family: 'Lekton';
+list-style-type: none;
+
 }
+
+/* Banner Section */
+
+h1 {
+  width: 80%;
+  padding-left: 5%;
+  padding-top: 5%;
+  margin: 0;
+}
+
+/* About section */
+
+#about {
+  width: 80%;
+  padding-left: 5%;
+  margin: 0;
+}
+
+
+
 
 /* ==========================================================================
    Helper classes
