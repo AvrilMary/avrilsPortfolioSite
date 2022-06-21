@@ -147,6 +147,10 @@ list-style-type: none;
 
 }
 
+h3 {
+  color: #EEEFDA;
+}
+
 /* Banner Section */
 
 h1 {
@@ -163,6 +167,24 @@ h1 {
   padding-left: 5%;
   margin: 0;
 }
+
+
+img {
+  width: 80%;
+  height: 90%;
+  border: 5px solid white;
+  border-radius: 100%;
+  margin-top: 0;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  color: #EEEFDA;
+}
+
+
 
 
 
