@@ -188,7 +188,7 @@ h1 {
 }
 
 
-img {
+.profilepic {
   width: 80%;
   height: 90%;
   border: 5px solid white;
@@ -229,7 +229,18 @@ margin-bottom: 3%;
 
 
 /*Work Projects */
+.projectimages {
+  width: 80%;
+  margin-top: 0;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
 
+.pskills {
+  font-size: 1em;
+  width: 5%
+}
 
 
 

@@ -2,7 +2,7 @@
 
 //Replace Text function	Word 1	 
 $(function word1 () { 
-    count = 0; 
+count = 0; 
     wordsArray1 = ["kiwi 🇳🇿.", "nature lover 🌳.", "foodie 🥘.", "bookworm 📚🪱.", "swimmer 🏊‍♀️."]; 
     setInterval(function () { 
       count++; 
@@ -14,9 +14,9 @@ $(function word1 () {
   //End Replace Text function
 
   //Replace Text function	Word 2	 
-$(function () { 
+$(function word2 () { 
     count = 0; 
-    wordsArray2 = ["🫖", "🧉", "🥛", "🍹"]; 
+    wordsArray2 = ["🫖", "🥛", "🍹"]; 
     setInterval(function () { 
       count++; 
       $("#word2").fadeOut(500, function () { 
@@ -25,3 +25,15 @@ $(function () {
     }, 2000); 
   }); 
 
+
+  /*$(function word3 () { 
+    count = 0; 
+    wordsArray3 = ["🏛️", "🏕️", "🏔️"]; 
+    setInterval(function () { 
+      count++; 
+      $("#word3").fadeOut(500, function () { 
+        $(this).text(wordsArray3[count % wordsArray3.length]).fadeIn(500); 
+      }); 
+    }, 2000); 
+  }); 
+*/
