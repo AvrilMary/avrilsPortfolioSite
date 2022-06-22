@@ -3,7 +3,7 @@
 //Replace Text function	Word 1	 
 $(function word1 () { 
 count = 0; 
-    wordsArray1 = ["kiwi 🇳🇿.", "nature lover 🌳.", "foodie 🥘.", "bookworm 📚🪱.", "swimmer 🏊‍♀️."]; 
+    wordsArray1 = ["kiwi 🇳🇿.", "nature lover 🌳.", "foodie 🥘.", "bookworm 📚🪱.", "swimmer 🏊‍♀️." ]; 
     setInterval(function () { 
       count++; 
       $("#word1").fadeOut(500, function () { 

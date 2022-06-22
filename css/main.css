@@ -251,6 +251,10 @@ figure {
   width: 5%
 }
 
+.pskills:hover {
+  font-size: 1.25em;
+}
+
 .button1 {
   background-color: #152A3E;
   color: #EEEFDA;
@@ -267,21 +271,35 @@ figure {
   margin-bottom: 0.1em;
 }
 
-
+.button1:hover, .button2:hover {
+  background-color: #B4C7D9;
+  color: #152A3E;
+  font-style: italic;
+}
 
 
 /*Contact Section */
 
+.formButtons {
+  background-color: #EEEFDA;
+  color: #152A3E;
+  padding: 0.5em;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+
 
 /* Footer */
 
+h4 {
+  margin-bottom: 0;
+}
 
-
-
-
-
-
-
+.contactIcons {
+  margin-bottom: 1em;
+  margin-right: 0.5em;
+  font-size: 1.5em;
+}
 
 
 
