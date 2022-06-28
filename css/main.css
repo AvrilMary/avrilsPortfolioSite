@@ -100,60 +100,9 @@ textarea {
   font-family: 'Lekton';
 }
 
-
 .content-wrapper {
   width: 90%;
   margin-left: 5%;
-}
-
-
-header {
-  background-color: #152A3E;
-  width: 100%;
-}
-
-
-header nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-header nav ul {
-  display: flex;
-  justify-content:space-between;
-  width: 80%;
-}
-
-.full-width {
-  display: flex;
-  justify-content: flex-start;
-}
-
-
-.menu-bar {
-  padding-top: 1.75em;
-  padding-bottom: 1.75em;
-  padding-right: 2.5em;
-}
-
-.fa, .fas {
-  color: white;
-  font-size: 2.5em;
-}
-
-.hide {
-  display: none;
-}
-
-
-.nav-list li {
-padding-left: 0.75em;
-padding-right: 0.75em;
-font-family: 'Lekton';
-list-style-type: none;
-
 }
 
 h3 {
@@ -166,14 +115,62 @@ h2 {
   color: #152A3E;
 }
 
-
 p {
   margin: 0;
 }
 
+/* ------ Navigation Section -------*/
+header {
+  background-color: #152A3E;
+  width: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu-bar {
+  padding-top: 1.75em;
+  padding-bottom: 1.75em;
+  padding-right: 2.5em;
+  text-align: end;
+}
+
+.nav-list {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  font-family: 'Lekton';
+  list-style-type: none;
+  }
+
+.fa, .fas {
+  color: white;
+  font-size: 2.5em;
+}
+
+header nav ul li a {
+  color: white;
+  line-height: 3em;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+/*.hide {
+  display: none;
+} */
 
 
-/* Banner Section */
+/* -----Banner Section------ */
 
 h1 {
   width: 95%;
@@ -181,7 +178,7 @@ h1 {
   color: #152A3E;
 }
 
-/* About section */
+/*------About section-------- */
 
 #about {
   margin: 0;
