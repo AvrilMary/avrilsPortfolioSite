@@ -1,7 +1,7 @@
 
 
-//const navigation = document.querySelector(".nav-list");
-//console.log(navigation);
+const navigation = document.querySelector(".nav-list");
+console.log(navigation);
 
 const menuIcon = document.querySelector(".fas fa-bars")
 console.log(menuIcon);
