@@ -101,7 +101,7 @@ textarea {
 }
 
 .content-wrapper {
-  width: 90%;
+  width: 100%;
   margin-left: 5%;
 }
 
@@ -322,6 +322,71 @@ h4 {
   margin-right: 0.5em;
   font-size: 1.5em;
 }
+
+
+@media only screen and (min-width: 768px) {
+  /*Tablet styles here*/
+
+
+  /* Header section */
+  
+  header .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .nav-list {
+    width: 100%;
+    display: flex;
+  }
+
+  .nav-list li {
+    width: 20%;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.25em;
+  }
+
+  .nav-list li a {
+    line-height: 1em;
+  }
+
+  .fas, .fa-bars {
+    display: none;
+  }
+
+
+/*----About Section----*/
+
+.about-content {
+  display: flex;
+}
+
+.aboutInfo {
+  width: 60%;
+}
+
+.figureProfilePic {
+  width: 25%;
+  height: 25%;
+  margin-right: 3em;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
 
 
 
