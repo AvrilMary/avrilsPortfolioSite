@@ -56,10 +56,11 @@
       <div class="menu">
         <div class="menu-bar">
           <i class="fas fa-bars"></i>
+          <i class="fas fa-times hide"></i>
         </div>
       </div>
           <nav>
-            <ul class="nav-list hide">
+            <ul class="nav-list">
               <li><a href= "#home">Home</a></li>
               <li><a href= "#about">About</a></li>
               <li><a href= "#skills&tools">Skills & Tools</a></li>
@@ -102,7 +103,7 @@
               Front End Developer from Skillcrush. 
               <br><br>
               I’m happiest when I am <Strong>creating, problem solving and collaborating</Strong> with an awesome team whilst 
-              being accompanied with my favorite beverage <span id="word2"> ☕</span> and working from an inspiring place <span id="word3">🏞️</span> . 
+              being accompanied with my favorite beverage <span id="word2"> ☕</span> and working from an inspiring place. 
               </p>
           </article>
         </div>
@@ -279,6 +280,8 @@
           <br>
           <input class= "button2 btn btn-success" type="button" value="View Github repo" onclick="window.open('https://github.com/AvrilMary/github-new-repo-gallery', '_blank');">
         </article>
+      </section> <!--Closing work section tag-->
+      
 
         <!--Contact Section-->
       <section id="contact">
@@ -291,11 +294,14 @@
             </p>
           </div>
           <div class="form">
-            <input class="formButtons" type="text" name="name" value="Name*">
-            <input class="formButtons" type="text" name="name" value="Email*">
-            <input class="formButtons" type="text" name="name" value="Message*">
+
+          <form class="contact-form" action="contactform.php" method="post">
+            <input class="formButtons" type="text" name="name" placeholder="Full name*">
+            <input class="formButtons" type="text" name="mail" placeholder="Your email*">
+            <input class="formButtons" type="text" name="message" placeholder="Message*">
+            <button class ="formButtons sendEmail" type ="submit">Send Email</button>
+          </form>
             <br>
-            <input class="formButtons" type="button" value="Send Email">
           </div>
         </div>
       </section>

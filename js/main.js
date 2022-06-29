@@ -1,3 +1,13 @@
+// Selection of Global Variable //
+
+const navigation = document.querySelector(".nav-list");
+console.log(navigation);
+
+const menuIcon = document.querySelector(".fas fa-bars")
+console.log(menuIcon);
+const exit = document.querySelector(".fas fa-times")
+
+
 
 
 //Replace Text function	Word 1	 
@@ -25,15 +35,4 @@ $(function word2 () {
     }, 2000); 
   }); 
 
-
-  /*$(function word3 () { 
-    count = 0; 
-    wordsArray3 = ["🏛️", "🏕️", "🏔️"]; 
-    setInterval(function () { 
-      count++; 
-      $("#word3").fadeOut(500, function () { 
-        $(this).text(wordsArray3[count % wordsArray3.length]).fadeIn(500); 
-      }); 
-    }, 2000); 
-  }); 
-*/
+//End Text Function Word 2 
