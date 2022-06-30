@@ -91,7 +91,7 @@ textarea {
     font-size: 16px;
   }
 
-   body {
+  body {
   justify-content: center;
   margin: 0;
   background-color: #CAC691;
@@ -101,7 +101,7 @@ textarea {
 }
 
 .content-wrapper {
-  width: 100%;
+  width: 90%;
   margin-left: 5%;
 }
 
@@ -157,6 +157,7 @@ header {
 .fas, .fa-bars {
   color: white;
   font-size: 3em;
+  margin-right: 2%;
 }
 
 .fas, .fa-times {
@@ -190,12 +191,15 @@ h1 {
   margin: 0;
 }
 
+.figureProfilePic {
+  text-align: center;
+}
 
 .profilepic {
   width: 100%;
-  max-height: 400px;
-  max-width: 350px;
-  height: 20%;
+  max-height: 250px;
+  max-width: 200px;
+  height: 15%;
   border: 5px solid white;
   border-radius: 100%;
   margin-top: 1em;

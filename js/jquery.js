@@ -1,3 +1,6 @@
+$(document).ready(function() {
+
+
 //Replace Text function	Word 1	 
 $(function word1 () { 
     count = 0; 
@@ -22,5 +25,7 @@ $(function word1 () {
           }); 
         }, 2000); 
       }); 
+
+    });
     
     //End Text Function Word 2 
