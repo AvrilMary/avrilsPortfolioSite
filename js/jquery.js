@@ -13,18 +13,7 @@ $(function word1 () {
         }, 2000); 
       }); 
       //End Replace Text function
-    
-      //Replace Text function	Word 2	 
-    $(function word2 () { 
-        count = 0; 
-        wordsArray2 = ["🫖", "🥛", "🍹"]; 
-        setInterval(function () { 
-          count++; 
-          $("#word2").fadeOut(500, function () { 
-            $(this).text(wordsArray2[count % wordsArray2.length]).fadeIn(500); 
-          }); 
-        }, 2000); 
-      }); 
+
 
     });
     

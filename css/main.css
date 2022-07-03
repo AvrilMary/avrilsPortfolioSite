@@ -421,20 +421,27 @@ h4 {
   flex: row wrap;
 }
 
-
-
-.projectFigure {
-  width: 50%;
+.button1, .button2 {
+  font-size: 1.75em;
 }
 
-.project-description {
-  margin-bottom: 2%;
+
+/* Project styles image & description */
+
+.imageStyleA {
+  width: 60%;
+  margin: 0;
+}
+
+.descriptionStyleA {
+  width: 40%;
+  margin-top: 5%;
   font-size: 1.5em;
-  margin-top: 1.5em;
 }
 
-.project-description, .styleb {
-  width: 100%;
+#gitHubDescription {
+  font-size: 2em;
+  margin-bottom: 1em;
 }
 
 
