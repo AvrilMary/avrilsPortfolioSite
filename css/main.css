@@ -299,6 +299,10 @@ figure {
   width: 90%;
 }
 
+#message {
+  padding-bottom: 25%;
+}
+
 .sendEmail {
   background-color: #152A3E;
   color: #EEEFDA;
@@ -325,6 +329,8 @@ h4 {
   margin-right: 0.5em;
   font-size: 1.5em;
 }
+
+
 
 
 @media only screen and (min-width: 768px) {
@@ -421,6 +427,10 @@ h4 {
   flex: row wrap;
 }
 
+.projectimages {
+  width: 95%;
+}
+
 .button1, .button2 {
   font-size: 1.75em;
 }
@@ -429,7 +439,7 @@ h4 {
 /* Project styles image & description */
 
 .imageStyleA {
-  width: 60%;
+  width: 55%;
   margin: 0;
 }
 
@@ -460,6 +470,25 @@ h4 {
 .pskills {
   width: 4.5%;
 }
+
+
+/* Contact & Footer Section */
+
+.formButtons {
+  font-size: 1.75em;
+}
+
+#message {
+  padding-bottom: 15%;
+}
+
+.contactDescription, .socialDescription {
+  font-size: 2em;
+  width: 80%;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
 
 
 }
