@@ -103,6 +103,7 @@ textarea {
 .content-wrapper {
   width: 90%;
   margin-left: 5%;
+  margin-bottom: 5%; 
 }
 
 h3 {
@@ -117,6 +118,10 @@ h2 {
 
 p {
   margin: 0;
+}
+
+article {
+  margin-bottom: 3%;
 }
 
 /* ------ Navigation Section -------*/
