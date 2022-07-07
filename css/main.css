@@ -333,8 +333,13 @@ figure {
   width: 30%;
 }
 
-.sendEmail:focus {
+.sendEmail:hover {
   background-color: #B4C7D9;
+  color: #152A3E;
+}
+
+.sendEmail:focus {
+  background-color: #E9B14C;
   color: #152A3E;
 }
 
