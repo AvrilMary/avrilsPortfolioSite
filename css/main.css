@@ -124,6 +124,10 @@ article {
   margin-bottom: 3%;
 }
 
+.social {
+  text-decoration: none;
+}
+
 /* ------ Navigation Section -------*/
 header {
   background-color: #152A3E;
@@ -327,6 +331,11 @@ figure {
   margin-top: 0.5em;
   margin-bottom: 0.1em;
   width: 30%;
+}
+
+.sendEmail:focus {
+  background-color: #B4C7D9;
+  color: #152A3E;
 }
 
 #contact {
