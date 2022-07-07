@@ -272,7 +272,7 @@ figure {
 
 
 .projectimages {
-  width: 80%;
+  max-width: 80%;
   margin-top: 0.5em;
   margin-bottom: 1em;
 }
@@ -471,6 +471,11 @@ h4 {
 
 
 /* Project styles image & description */
+
+.projectimages {
+  max-width: 60%;
+}
+
 
 .imageStyleA {
   width: 55%;
