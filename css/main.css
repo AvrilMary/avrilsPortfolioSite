@@ -104,6 +104,7 @@ textarea {
 .content-wrapper {
   width: 90%;
   margin-left: 5%; 
+  padding-top: 5%;
 }
 
 h3 {
@@ -130,7 +131,7 @@ article {
 
 /* ------ Navigation Section -------*/
 header {
-  background-color: #152A3E;
+  background-color: #EFA088;
   width: 100%;
 }
 
@@ -187,6 +188,13 @@ header nav ul li a {
 
 
 /* -----Banner Section------ */
+
+
+.banner-area {
+  background-color: #49796F;
+  margin: 0;
+}
+
 
 h1 {
   width: 95%;
@@ -266,6 +274,11 @@ width: 100%;
 .allSkillIcons {
   display: flex;
   flex-flow: row wrap;
+  padding-bottom: 5%;
+}
+
+.currentWorkInfo {
+  padding-bottom: 5%;
 }
 
 
@@ -301,24 +314,28 @@ figure {
 } */
 
 .button1 {
-  background-color: #152A3E;
-  color: #EEEFDA;
+  background-color: white;
+  color: black;
   padding: 0.5em;
-  margin-top: 0.3em;
-  margin-bottom: 0.1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.3em;
+  border-radius: 25px;
+  border: 0;
 }
 
 .button2 {
-  background-color: #152A3E;
-  color: #EEEFDA;
+  background-color: white;
+  color: black;
   padding: 0.5em;
   margin-top: 0.1em;
   margin-bottom: 0.1em;
+  border-radius: 25px;
+  border: 0;
 }
 
 .button1:hover, .button2:hover {
-  background-color: #B4C7D9;
-  color: #152A3E;
+  background-color: #EFA088;
+  color: black;
   font-style: italic;
 }
 
@@ -326,12 +343,14 @@ figure {
 /*Contact Section */
 
 .formButtons {
-  background-color: #EEEFDA;
-  color: #152A3E;
+  background-color: white;
+  border: 0;
+  color: black;
   padding: 0.5em;
   margin-top: 0.1em;
   margin-bottom: 0.1em;
   width: 90%;
+  border-radius: 25px;
 }
 
 #message {
@@ -339,12 +358,13 @@ figure {
 }
 
 .sendEmail {
-  background-color: #152A3E;
-  color: #EEEFDA;
-  padding: 0.5em;
+  background-color: white;
+  color: black;
+  padding: 0.75em;
   margin-top: 0.5em;
   margin-bottom: 0.1em;
   width: 30%;
+  border-radius: 25px;
 }
 
 .sendEmail:hover {
@@ -374,6 +394,10 @@ h4 {
   margin-bottom: 1em;
   margin-right: 0.5em;
   font-size: 1.5em;
+}
+
+.footer {
+  background-color: #EFA088;
 }
 
 
