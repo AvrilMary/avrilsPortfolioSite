@@ -94,7 +94,6 @@ textarea {
   body {
   justify-content: center;
   margin: 0;
-  background-color: #CAC691;
   font-size: 1em;
   width: 100%;
   font-family: 'Lekton';
@@ -105,6 +104,8 @@ textarea {
   width: 90%;
   margin-left: 5%; 
   padding-top: 5%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 h3 {
@@ -193,6 +194,7 @@ header nav ul li a {
 .banner-area {
   background-color: #49796F;
   margin: 0;
+  height: 100%;
 }
 
 
@@ -202,10 +204,16 @@ h1 {
   color: white;
 }
 
+.selfIntro {
+  margin: 0;
+  padding-bottom: 10%;
+}
+
 /*------About section-------- */
 
 #about {
   margin: 0;
+  padding-bottom: 5%;
   background-color: #D87E3D;
 }
 
@@ -237,14 +245,18 @@ span {
 
 #skillsTools {
   background-color: #D49046;
+  padding-bottom: 5%;
 }
 
 
 .individualSkillIcon {
   display: flex;
   flex-flow: row wrap;
-  width: 50%;
+  max-width: 35%;
   margin: 0;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 
@@ -265,6 +277,10 @@ width: 100%;
   width: 100%;
 }
 
+#javascript {
+  margin-top: 14%;
+}
+
 .skill-icons {
   text-align: center;
   margin-bottom: 5%;
@@ -274,7 +290,8 @@ width: 100%;
 .allSkillIcons {
   display: flex;
   flex-flow: row wrap;
-  padding-bottom: 5%;
+  padding-bottom: 20%;
+  justify-content: center;
 }
 
 .currentWorkInfo {
@@ -286,6 +303,7 @@ width: 100%;
 
 #work {
   background-color: #49796f;
+  padding-bottom: 5%;
 }
 
 figure {
@@ -313,23 +331,30 @@ figure {
   font-size: 5em;
 } */
 
+
 .button1 {
   background-color: white;
   color: black;
-  padding: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
   margin-top: 0.5em;
   margin-bottom: 0.3em;
-  border-radius: 25px;
+  border-radius: 20px;
   border: 0;
 }
 
 .button2 {
   background-color: white;
   color: black;
-  padding: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
   margin-top: 0.1em;
   margin-bottom: 0.1em;
-  border-radius: 25px;
+  border-radius: 20px;
   border: 0;
 }
 
@@ -346,11 +371,11 @@ figure {
   background-color: white;
   border: 0;
   color: black;
-  padding: 0.5em;
-  margin-top: 0.1em;
-  margin-bottom: 0.1em;
+  padding: 0.75em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
   width: 90%;
-  border-radius: 25px;
+  border-radius: 20px;
 }
 
 #message {
@@ -363,8 +388,8 @@ figure {
   padding: 0.75em;
   margin-top: 0.5em;
   margin-bottom: 0.1em;
-  width: 30%;
-  border-radius: 25px;
+  max-width: 40%;
+  border-radius: 20px;
 }
 
 .sendEmail:hover {
