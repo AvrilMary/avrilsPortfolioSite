@@ -96,7 +96,7 @@ textarea {
   margin: 0;
   font-size: 1em;
   width: 100%;
-  font-family: 'Lekton';
+  font-family: 'Poppins', sans-serif;
   color: white;
 }
 
@@ -161,7 +161,7 @@ header {
 .nav-list li {
   padding-left: 0.75em;
   padding-right: 0.75em;
-  font-family: 'Lekton';
+  font-family: 'Poppins', sans-serif;
   list-style-type: none;
   }
 
