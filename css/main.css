@@ -327,10 +327,6 @@ figure {
   width: 5%
 }
 
-/*.pskills:hover {
-  font-size: 5em;
-} */
-
 
 .button1 {
   background-color: white;
@@ -393,13 +389,13 @@ figure {
 }
 
 .sendEmail:hover {
-  background-color: #B4C7D9;
-  color: #152A3E;
+  background-color: #49796F;
+  color: white;
 }
 
 .sendEmail:focus {
-  background-color: #E9B14C;
-  color: #152A3E;
+  background-color: #D49046;
+  color: white;
 }
 
 #contact {
@@ -517,6 +513,10 @@ h4 {
   margin-left: 3%;
 }
 
+.allSkillIcons {
+  padding-bottom: 10%;
+}
+
 /* Project Image section */
 
 
@@ -533,6 +533,12 @@ h4 {
   font-size: 1.75em;
 }
 
+
+.button1, .button2 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  
+}
 
 /* Project styles image & description */
 
