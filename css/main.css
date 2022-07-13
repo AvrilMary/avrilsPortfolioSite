@@ -187,6 +187,11 @@ header nav ul li a {
   display: none;
 } 
 
+#navigationContent {
+  padding-bottom: 0%;
+  padding-top: 0%;
+}
+
 
 /* -----Banner Section------ */
 
