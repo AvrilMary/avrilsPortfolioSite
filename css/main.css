@@ -206,7 +206,16 @@ header nav ul li a {
 h1 {
   width: 95%;
   padding-top: 5%;
-  color: white;
+  color: #2B2B2B;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+#word1 {
+  width: 95%;
+  padding-top: 5%;
+  color: #2B2B2B;
+  font-weight: bold;
 }
 
 .selfIntro {
@@ -219,7 +228,7 @@ h1 {
 #about {
   margin: 0;
   padding-bottom: 5%;
-  background-color: #a98467;
+  background-color: #836B49;
 }
 
 .figureProfilePic {
@@ -307,7 +316,7 @@ width: 100%;
 /*Work Projects */
 
 #work {
-  background-color: #a98467;
+  background-color: #836B49;
   padding-bottom: 5%;
 }
 
@@ -411,7 +420,7 @@ figure {
 
 #contact {
   padding: 0;
-  background-color: #a98467;
+  background-color: #6c584c;
 }
 
 
@@ -429,7 +438,7 @@ h4 {
 }
 
 .footer {
-  background-color: #6c584c;
+  background-color: #836B49;
 }
 
 
